@@ -1,0 +1,49 @@
+fullstack-todorious-app:.
+¦   .gitignore
+¦   README.md
+¦   
++---client
+¦   ¦   .gitignore
+¦   ¦   .npmrc
+¦   ¦   package-lock.json
+¦   ¦   package.json
+¦   ¦   README.md
+¦   ¦            
+¦   +---public
+¦   ¦       favicon.ico
+¦   ¦       index.html
+¦   ¦       logo192.png
+¦   ¦       logo512.png
+¦   ¦       manifest.json
+¦   ¦       robots.txt
+¦   ¦       
+¦   L---src
+¦       ¦   api.js
+¦       ¦   App.js
+¦       ¦   App.test.js
+¦       ¦   index.css
+¦       ¦   index.js
+¦       ¦   logo.svg
+¦       ¦   reportWebVitals.js
+¦       ¦   setupTests.js
+¦       ¦   
+¦       +---components
+¦       ¦       AddTaskForm.js
+¦       ¦       Task.js
+¦       ¦       TaskControls.js
+¦       ¦       TaskItem.js
+¦       ¦       TaskList.js
+¦       ¦       
+¦       +---hooks
+¦       ¦       useTasks.js
+¦       ¦       
+¦       +---styles
+¦       ¦       App.css
+¦       ¦       
+¦       L---utils
+¦               taskHelper.js
+¦               
+L---server
+    ¦   index.js
+    ¦   package-lock.json
+    ¦   package.json
