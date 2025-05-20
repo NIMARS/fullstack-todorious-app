@@ -60,13 +60,22 @@ npm run server
 
 ```bash
 📁 src/
-│
-├── components/         # UI-компоненты (TaskList, AddTaskForm, Filters и т.д.)
-├── hooks/              # Кастомные хуки (useTasks)
-├── api/                # Работа с API
-├── App.js              # Главный компонент
-├── index.js            # Точка входа
-└── styles/             # Стили
+├── components/
+│   ├── AddTaskForm.js
+│   ├── TaskControls.js
+│   ├── TaskItem.js
+│   ├── TaskList.js
+│   └── Task.js              
+├── hooks/
+│   └── useTasks.js
+├── utils/
+│   └── taskHelper.js
+├── styles/
+│   └── App.css
+├── index.js
+├── App.js
+├── api.js  
+└── assets/
 ```
 
 ## 📌 Пример задачи
