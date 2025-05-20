@@ -1,0 +1,239 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* Базовая стилизация задач */
+.task {
+  padding: 10px;
+  margin: 10px;
+  background-color: #f2f2f2;
+  border-left: 5px solid #007bff;
+  font-family: sans-serif;
+  border-radius: 5px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+  padding: 2rem;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #008cff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+li input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+li button {
+  margin-left: auto;
+  background-color: crimson;
+}
+
+.filter-buttons {
+  margin: 1em 0;
+}
+
+.filter-buttons button {
+  margin-right: 0.5em;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 6px;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.filter-buttons button:hover {
+  background-color: #bbb;
+}
+
+.control-buttons {
+  margin-top: 1em;
+}
+
+.control-buttons button {
+  margin-right: 0.5em;
+  padding: 0.5em 1em;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.control-buttons button:hover {
+  background-color: #ccc;
+}
+
+.task-item {
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.task-item input[type="text"] {
+  flex-grow: 1;
+  padding: 0.3em;
+}
+
+/* priority */
+.task-item {
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.task-item.common {
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.task-item.rare {
+  background-color: #ffffcc;
+  border-color: #f0c000;
+}
+
+.task-item.ultra {
+  background-color: #ffe1f1;
+  border-color: rgb(218, 32, 175);
+}
+
+.priority-label {
+  font-size: 0.8em;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  background-color: #eee;
+  text-transform: uppercase;
+}
+
+/* .task-priority.common {
+  border-left: 4px solid white;
+}
+
+.task-priority.rare {
+  border-left: 4px solid gold;
+  background-color: #fff9e6;
+}
+
+.task-priority.ultra {
+  border-left: 4px solid purple;
+  background-color: #f3e6ff;
+} */
+
+.task.priority-common {
+  background-color: #fff;
+  border: 3px solid #ccc;
+}
+.task.priority-rare {
+  background-color: #fff9c4; /* светло-желтый */
+  border: 3px solid #fbc02d; /* желтый */
+}
+.task.priority-ultra {
+  background-color: #e1bee7; /* светло-фиолетовый */
+  border: 3px solid #7b1fa2; /* фиолетовый */
+}
+
+/*searcher*/
+.search-bar {
+  margin: 1rem 0;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  width: 60%;
+  max-width: 400px;
+  font-size: 1rem;
+}
+
+.search-bar button {
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+}
+
+/*sorting*/
+
+.sort-options {
+  margin: 1rem 0;
+}
+/*sorting*/
+/*sorting*/
+/*sorting*/
+/*sorting*/
+/*sorting*/
+/*sorting*/
+/*sorting*/
+
